@@ -22,7 +22,7 @@ const toggleDarkmode = () =>{
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/frontend-foodlle">
     
     <Navbar
     function = {toggleDarkmode}
