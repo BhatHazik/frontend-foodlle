@@ -1,0 +1,99 @@
+.about-light{
+    height: 85vh;
+    display:  flex;
+    align-items: center;
+    background-image: url(../Assets/bg7.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.about-dark{
+    height: 85vh;
+    display:  flex;
+    align-items: center;
+    background-image: url(../Assets/bg13.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.left-div img{
+    height: 55vh;
+    border-radius: 5px;
+    width: 35vw;
+    
+}
+
+.left-div{
+    width: auto;
+    margin-left: 20px;
+    padding-left: 3vw;
+}
+
+.right-div{
+    width: auto;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 4vw;
+    padding-left: 3vw;
+    
+}
+
+.right-div h1{
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.right-div h3{
+    font-size: large;
+    font-weight: 790;
+}
+
+.right-div p{
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+
+@media screen and (max-width:1350px){
+    .about-dark{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 90vh;
+    }
+    .left-div img{
+        width: 60%;
+        height: 40vh;
+        border-radius: 5vw;
+    }
+    .left-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .right-div h1{
+        font-size: 5vw;
+    }
+    .right-div p{
+        font-size: 1.3vw;
+    }
+    .right-div h3{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .right-div h1{
+        font-size: 6vw;
+    }
+    .right-div p{
+        font-size: 2.2vw;
+    }
+    .right-div h3{
+        font-size: 3vw;
+    }
+}

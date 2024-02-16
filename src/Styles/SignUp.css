@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300');
+
+
+    
+
+
+.signup-main-div{
+    height: 90vh;
+    background-image: url(../Assets/signup-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.sign-up{
+    background-color: #12192c;
+    height: 75vh;
+    width: 40%;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+   
+    
+  
+}
+
+.signup-items{
+    
+    height: 57vh;
+    width: 80%;
+    text-align: center;
+}
+
+.signup-items form{
+    margin-top: 7vh;
+}
+
+.signup-items input{
+     border: 0;
+	 border-bottom: 1px solid whitesmoke;
+	 border-radius: 0;
+	 padding: 0 0 0.25rem 0;
+	 color: white;
+     width: 70%;
+	 background: transparent;
+     margin-bottom: 4vh;
+     height: 3.5vh;
+     font-size: 1vw;
+     font-weight: 600;
+}
+
+.signup-items input:focus{
+    outline: none;
+}
+
+.signup-items input::placeholder{
+    color: whitesmoke;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.sign-up button{
+    margin-top: 6vh;
+	 border: 0;
+	 border-radius: 200px;
+	 width: 70%;
+	 padding: 0.85rem;
+	 font-size: 1rem;
+	 color: #000;
+	 background: #85FFBD;
+     cursor: pointer;
+     font-weight: 600;
+}
+
+.sign-up button:focus {
+    outline: none;
+}
+
+.sign-up a {
+    
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+   
+}
+
+.opposite-btn{
+    cursor: pointer;
+    margin: 2px 0 0 0;
+
+}
+
+
+

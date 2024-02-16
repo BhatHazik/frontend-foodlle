@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300');
+
+
+    
+
+
+.signin-main-div{
+    height: 90vh;
+    background-image: url(../Assets/signup-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.sign-in{
+    background-color: #12192c;
+    height: 75vh;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+    width: 30vw;
+   
+    
+  
+}
+
+.signin-items{
+    
+    height: 57vh;
+    width: 80%;
+    text-align: center;
+}
+
+.signin-items input{
+    border: 0;
+	 border-bottom: 1px solid whitesmoke;
+	 border-radius: 0;
+	 padding: 0 0 0.25rem 0;
+	 font-size: .8rem;
+	 color: white;
+     width: 80%;
+	 background: transparent;
+     margin-bottom: 7vh;
+     font-size: 1vw;
+    font-weight: 600;
+
+}
+
+.signin-items h2{
+    margin: 5vh 0 7vh 0;
+}
+
+.sign-in form{
+    margin-top: 30px;
+}
+
+.signin-items input:focus{
+    outline: none;
+}
+
+.signin-items input::placeholder{
+    color: whitesmoke;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.sign-in button{
+    margin-top: 1rem;
+	 border: 0;
+	 border-radius: 200px;
+	 width: 70%;
+	 padding: 0.85rem;
+	 font-size: 1rem;
+	 color: #000;
+	 background: #85FFBD;
+     cursor: pointer;
+}
+
+.sign-in button:focus {
+    outline: none;
+}
+
+.sign-in a {
+    
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+   
+}
+
+.opposite-btn{
+    cursor: pointer;
+    margin: 2px 0 0 0;
+
+}

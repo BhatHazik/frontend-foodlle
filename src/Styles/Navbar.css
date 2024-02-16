@@ -1,0 +1,267 @@
+.navbar-light{
+    
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: 0.20vh solid ;
+    color: whitesmoke;
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    background-image: url(../Assets/bg7.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-dark{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: 0.20vh solid ;
+    color: whitesmoke;
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    background-image: url(../Assets/bg12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-nav-light{
+    height:100% ;
+    width: 20vw;
+    display:flex ;
+    align-items: center;
+    
+}
+
+.left-nav-dark{
+    height:100% ;
+    width: 20vw;
+    display:flex ;
+    align-items: center;
+}
+
+.left-nav-light h1 {
+    padding-left:2vw ;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    font-size: 3vw;
+    color: black;
+    -webkit-text-fill-color: #36bfec; 
+    -webkit-text-stroke: 0.2px; 
+}
+
+.left-nav-dark h1{
+    padding-left:2vw ;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: #000000; 
+    -webkit-text-stroke: 0.2px; 
+}
+
+.centre-nav{
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1.80vw;
+    margin-right: 10vw;
+   
+}
+
+.centre-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.right-nav{
+    
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2vw;
+    
+}
+
+.right-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.right-nav h3 {
+    display: none;
+    font-size: 5vw;
+    font-weight: 900;
+
+}
+
+
+.signup-btn {
+    cursor: pointer;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 5px;
+    font-size: 1vw;
+    font-weight: 600;
+    background-color: #66fcf1;
+}
+
+.FontAwesomeIcon-light{
+    font-size: 30px;
+    margin-top:5px ;
+    color: black;
+    margin-right: 10vw;
+
+}
+
+.FontAwesomeIcon-dark{
+    font-size: 30px;
+    margin-top:5px ;
+    color: rgb(255, 255, 255);
+    margin-right: 10vw;
+
+}
+
+
+@media screen and (max-width:1350px) {
+    
+    .left-nav-light h1{
+        font-size: 4vw;
+    }
+
+    .left-nav-dark h1{
+        font-size: 4vw;
+    }
+
+    .signup-btn{
+        height: 4vh;
+        width: 6vw;
+    }
+
+    .navbar-dark{
+        height: 10vh;
+    }
+
+    .navbar-light{
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    .left-nav-light h1{
+        font-size: 4vw;
+    }
+
+    .left-nav-dark h1{
+        font-size: 4vw;
+    }
+
+    .signup-btn{
+        height: 3.5vh;
+        width: 7vw;
+    }
+
+    .navbar-dark{
+        height: 10vh;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+
+    .left-nav-light h1{
+        font-size: 5vw;
+    }
+
+    .left-nav-dark h1{
+        font-size: 5vw;
+    }
+
+    .right-nav h3{
+        display: block;
+    }
+
+    .centre-nav a{
+        display: none;
+    }
+    
+    .left-nav h1{
+        font-size: 5vw;
+    }
+
+    .right-nav button{
+        display: none;
+        
+    }
+    .right-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 15vw;
+    }
+    .FontAwesomeIcon-light{
+        margin-right: 0;
+
+    } 
+    .FontAwesomeIcon-dark{
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width:520px) {
+
+    .left-nav-light h1{
+        font-size: 7vw;
+    }
+
+    .left-nav-dark h1{
+        font-size: 7vw;
+    }
+    
+    .left-nav h1{
+        font-size: 5vw;
+    }
+
+    .right-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 20vw;
+    }
+
+    .right-nav h3{
+        font-size: 7vw;
+    }
+    
+    .FontAwesomeIcon-light{
+        margin-right: 0;
+        font-size: 7vw;
+
+    } 
+    .FontAwesomeIcon-dark{
+        margin-right: 0;
+        font-size: 7vw;
+    }
+    
+
+}
