@@ -22,7 +22,7 @@ const toggleDarkmode = () =>{
 
   return (
     <>
-    <BrowserRouter basename="/frontend-foodlle">
+    <BrowserRouter>
     
     <Navbar
     function = {toggleDarkmode}
@@ -33,7 +33,7 @@ const toggleDarkmode = () =>{
    
 
     <Routes>
-      <Route exact path="/frontend-foodlle" element={<Section
+      <Route path="/" element={<Section
       mainDiv1 = {lightMode ? "main-div1-light" : "main-div1-dark"}
       mainDiv2 = {lightMode ? "main-div2-light" : "main-div2-dark"}
       mainDiv3 = {lightMode ? "main-div3-light" : "main-div3-dark"}

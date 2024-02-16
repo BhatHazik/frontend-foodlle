@@ -32,7 +32,7 @@ useEffect(()=>{
  const handleLogout = ()=>{
   if(isLoggedin){
     localStorage.removeItem('token');
-    navigate('/frontend-foodlle');
+    navigate('/');
   }
   
   else if(!isLoggedin){
@@ -48,7 +48,7 @@ useEffect(()=>{
             <h1>Foodlle</h1>
         </div>
 <div className='centre-nav'>
-  <Link to='/frontend-foodlle'><h4>HOME</h4></Link>
+  <Link to='/'><h4>HOME</h4></Link>
           <Link to='/menu'><h4>MENU</h4></Link>
           <Link to='/about'><h4>ABOUT</h4></Link>
           <Link to='/recipes'><h4>RECIPIES</h4></Link>
